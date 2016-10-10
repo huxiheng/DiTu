@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D206C22F1DAB8C34009252FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D206C22E1DAB8C34009252FC /* main.m */; };
+		D206C2321DAB8C34009252FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D206C2311DAB8C34009252FC /* AppDelegate.m */; };
+		D206C2351DAB8C34009252FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D206C2341DAB8C34009252FC /* ViewController.m */; };
+		D206C2381DAB8C34009252FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D206C2361DAB8C34009252FC /* Main.storyboard */; };
+		D206C23A1DAB8C34009252FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D206C2391DAB8C34009252FC /* Assets.xcassets */; };
+		D206C23D1DAB8C34009252FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D206C23B1DAB8C34009252FC /* LaunchScreen.storyboard */; };
+		D206C2481DAB8C34009252FC /* DituTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D206C2471DAB8C34009252FC /* DituTests.m */; };
+		D206C2531DAB8C35009252FC /* DituUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D206C2521DAB8C34009252FC /* DituUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D206C2441DAB8C34009252FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D206C2221DAB8C34009252FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D206C2291DAB8C34009252FC;
+			remoteInfo = Ditu;
+		};
+		D206C24F1DAB8C34009252FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D206C2221DAB8C34009252FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D206C2291DAB8C34009252FC;
+			remoteInfo = Ditu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D206C22A1DAB8C34009252FC /* Ditu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ditu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D206C22E1DAB8C34009252FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D206C2301DAB8C34009252FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D206C2311DAB8C34009252FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D206C2331DAB8C34009252FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D206C2341DAB8C34009252FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D206C2371DAB8C34009252FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D206C2391DAB8C34009252FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D206C23C1DAB8C34009252FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D206C23E1DAB8C34009252FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D206C2431DAB8C34009252FC /* DituTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DituTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D206C2471DAB8C34009252FC /* DituTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DituTests.m; sourceTree = "<group>"; };
+		D206C2491DAB8C34009252FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D206C24E1DAB8C34009252FC /* DituUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DituUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D206C2521DAB8C34009252FC /* DituUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DituUITests.m; sourceTree = "<group>"; };
+		D206C2541DAB8C35009252FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D206C2271DAB8C34009252FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D206C2401DAB8C34009252FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D206C24B1DAB8C34009252FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D206C2211DAB8C34009252FC = {
+			isa = PBXGroup;
+			children = (
+				D206C22C1DAB8C34009252FC /* Ditu */,
+				D206C2461DAB8C34009252FC /* DituTests */,
+				D206C2511DAB8C34009252FC /* DituUITests */,
+				D206C22B1DAB8C34009252FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D206C22B1DAB8C34009252FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D206C22A1DAB8C34009252FC /* Ditu.app */,
+				D206C2431DAB8C34009252FC /* DituTests.xctest */,
+				D206C24E1DAB8C34009252FC /* DituUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D206C22C1DAB8C34009252FC /* Ditu */ = {
+			isa = PBXGroup;
+			children = (
+				D206C2301DAB8C34009252FC /* AppDelegate.h */,
+				D206C2311DAB8C34009252FC /* AppDelegate.m */,
+				D206C2331DAB8C34009252FC /* ViewController.h */,
+				D206C2341DAB8C34009252FC /* ViewController.m */,
+				D206C2361DAB8C34009252FC /* Main.storyboard */,
+				D206C2391DAB8C34009252FC /* Assets.xcassets */,
+				D206C23B1DAB8C34009252FC /* LaunchScreen.storyboard */,
+				D206C23E1DAB8C34009252FC /* Info.plist */,
+				D206C22D1DAB8C34009252FC /* Supporting Files */,
+			);
+			path = Ditu;
+			sourceTree = "<group>";
+		};
+		D206C22D1DAB8C34009252FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D206C22E1DAB8C34009252FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D206C2461DAB8C34009252FC /* DituTests */ = {
+			isa = PBXGroup;
+			children = (
+				D206C2471DAB8C34009252FC /* DituTests.m */,
+				D206C2491DAB8C34009252FC /* Info.plist */,
+			);
+			path = DituTests;
+			sourceTree = "<group>";
+		};
+		D206C2511DAB8C34009252FC /* DituUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D206C2521DAB8C34009252FC /* DituUITests.m */,
+				D206C2541DAB8C35009252FC /* Info.plist */,
+			);
+			path = DituUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D206C2291DAB8C34009252FC /* Ditu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D206C2571DAB8C35009252FC /* Build configuration list for PBXNativeTarget "Ditu" */;
+			buildPhases = (
+				D206C2261DAB8C34009252FC /* Sources */,
+				D206C2271DAB8C34009252FC /* Frameworks */,
+				D206C2281DAB8C34009252FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ditu;
+			productName = Ditu;
+			productReference = D206C22A1DAB8C34009252FC /* Ditu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D206C2421DAB8C34009252FC /* DituTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D206C25A1DAB8C35009252FC /* Build configuration list for PBXNativeTarget "DituTests" */;
+			buildPhases = (
+				D206C23F1DAB8C34009252FC /* Sources */,
+				D206C2401DAB8C34009252FC /* Frameworks */,
+				D206C2411DAB8C34009252FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D206C2451DAB8C34009252FC /* PBXTargetDependency */,
+			);
+			name = DituTests;
+			productName = DituTests;
+			productReference = D206C2431DAB8C34009252FC /* DituTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D206C24D1DAB8C34009252FC /* DituUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D206C25D1DAB8C35009252FC /* Build configuration list for PBXNativeTarget "DituUITests" */;
+			buildPhases = (
+				D206C24A1DAB8C34009252FC /* Sources */,
+				D206C24B1DAB8C34009252FC /* Frameworks */,
+				D206C24C1DAB8C34009252FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D206C2501DAB8C34009252FC /* PBXTargetDependency */,
+			);
+			name = DituUITests;
+			productName = DituUITests;
+			productReference = D206C24E1DAB8C34009252FC /* DituUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D206C2221DAB8C34009252FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Tesiro;
+				TargetAttributes = {
+					D206C2291DAB8C34009252FC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D206C2421DAB8C34009252FC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D206C2291DAB8C34009252FC;
+					};
+					D206C24D1DAB8C34009252FC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D206C2291DAB8C34009252FC;
+					};
+				};
+			};
+			buildConfigurationList = D206C2251DAB8C34009252FC /* Build configuration list for PBXProject "Ditu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D206C2211DAB8C34009252FC;
+			productRefGroup = D206C22B1DAB8C34009252FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D206C2291DAB8C34009252FC /* Ditu */,
+				D206C2421DAB8C34009252FC /* DituTests */,
+				D206C24D1DAB8C34009252FC /* DituUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D206C2281DAB8C34009252FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D206C23D1DAB8C34009252FC /* LaunchScreen.storyboard in Resources */,
+				D206C23A1DAB8C34009252FC /* Assets.xcassets in Resources */,
+				D206C2381DAB8C34009252FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D206C2411DAB8C34009252FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D206C24C1DAB8C34009252FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D206C2261DAB8C34009252FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D206C2351DAB8C34009252FC /* ViewController.m in Sources */,
+				D206C2321DAB8C34009252FC /* AppDelegate.m in Sources */,
+				D206C22F1DAB8C34009252FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D206C23F1DAB8C34009252FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D206C2481DAB8C34009252FC /* DituTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D206C24A1DAB8C34009252FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D206C2531DAB8C35009252FC /* DituUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D206C2451DAB8C34009252FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D206C2291DAB8C34009252FC /* Ditu */;
+			targetProxy = D206C2441DAB8C34009252FC /* PBXContainerItemProxy */;
+		};
+		D206C2501DAB8C34009252FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D206C2291DAB8C34009252FC /* Ditu */;
+			targetProxy = D206C24F1DAB8C34009252FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D206C2361DAB8C34009252FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D206C2371DAB8C34009252FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D206C23B1DAB8C34009252FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D206C23C1DAB8C34009252FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D206C2551DAB8C35009252FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D206C2561DAB8C35009252FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D206C2581DAB8C35009252FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ditu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xieshi.Ditu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D206C2591DAB8C35009252FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ditu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xieshi.Ditu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D206C25B1DAB8C35009252FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DituTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xieshi.DituTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ditu.app/Ditu";
+			};
+			name = Debug;
+		};
+		D206C25C1DAB8C35009252FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DituTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xieshi.DituTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ditu.app/Ditu";
+			};
+			name = Release;
+		};
+		D206C25E1DAB8C35009252FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DituUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xieshi.DituUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ditu;
+			};
+			name = Debug;
+		};
+		D206C25F1DAB8C35009252FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DituUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xieshi.DituUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ditu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D206C2251DAB8C34009252FC /* Build configuration list for PBXProject "Ditu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D206C2551DAB8C35009252FC /* Debug */,
+				D206C2561DAB8C35009252FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D206C2571DAB8C35009252FC /* Build configuration list for PBXNativeTarget "Ditu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D206C2581DAB8C35009252FC /* Debug */,
+				D206C2591DAB8C35009252FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D206C25A1DAB8C35009252FC /* Build configuration list for PBXNativeTarget "DituTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D206C25B1DAB8C35009252FC /* Debug */,
+				D206C25C1DAB8C35009252FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D206C25D1DAB8C35009252FC /* Build configuration list for PBXNativeTarget "DituUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D206C25E1DAB8C35009252FC /* Debug */,
+				D206C25F1DAB8C35009252FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D206C2221DAB8C34009252FC /* Project object */;
+}
