@@ -207,7 +207,13 @@
 				TargetAttributes = {
 					D206C2291DAB8C34009252FC = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DW7TB8NK56;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					D206C2421DAB8C34009252FC = {
 						CreatedOnToolsVersion = 8.0;
@@ -424,10 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DW7TB8NK56;
 				INFOPLIST_FILE = Ditu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xieshi.Ditu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -435,10 +444,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DW7TB8NK56;
 				INFOPLIST_FILE = Ditu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xieshi.Ditu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -507,6 +519,7 @@
 				D206C2591DAB8C35009252FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D206C25A1DAB8C35009252FC /* Build configuration list for PBXNativeTarget "DituTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				D206C25C1DAB8C35009252FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D206C25D1DAB8C35009252FC /* Build configuration list for PBXNativeTarget "DituUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				D206C25F1DAB8C35009252FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

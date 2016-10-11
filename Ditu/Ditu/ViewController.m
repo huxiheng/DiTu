@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import <CoreLocation/CoreLocation.h>
+@interface ViewController ()<CLLocationManagerDelegate>{
+    CLLocationManager *locationManager;
+}
 
 @end
 
@@ -16,14 +18,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)userShouquanWEIZhi{
+    //1.创建用户位置管理器
+    locationManager = [[CLLocationManager alloc] init];
+    locationManager.delegate = self;
+    //请求前台定位授权
+    if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
+        //         [locationManager requestWhenInUseAuthorization] ;
+        
+        //前后台定位授权
+        [locationManager requestAlwaysAuthorization];
+        
+        //ios9.0之后的授权
+        if ([[UIDevice currentDevice].systemVersion floatValue]>=9.0) {
+            locationManager.allowsBackgroundLocationUpdates=YES;
+        }
+    }
 }
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [locationManager startUpdatingLocation];
+}
+
+#pragma mark ---CLLocationManagerDelegate----
+- (void)locationManager:(CLLocationManager *)manager
+     didUpdateLocations:(NSArray<CLLocation *> *)locations{
+    NSLog(@"%@",locations);
+    /*
+     完成定位的次数，每隔一段时间定为一次
+     
+     */
+}
 
 @end
