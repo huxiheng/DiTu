@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
+typedef void(^blockUserLocation) (CLLocation *location);
+@interface ViewController : UIViewController<CLLocationManagerDelegate>{
+    
+    CLLocationManager *locationM;
+}
+
+@property (nonatomic,strong)blockUserLocation blockUserLocation;
+
 
 
 @end
