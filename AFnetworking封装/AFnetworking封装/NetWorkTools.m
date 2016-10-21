@@ -17,12 +17,12 @@ typedef void (^successCallBack)(NSURLSessionDataTask * _Nonnull, id _Nullable) ;
     dispatch_once(&onceToken, ^{
         shareObject = [[NetWorkTools alloc]init];
         shareObject.responseSerializer.acceptableContentTypes =[NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html",@"text/plain", nil];
+        
     });
     return shareObject;
 }
 
 -(void)requestMethodType:(RequestType)RequestType urlString:(NSString *)urlString parameters:(NSMutableDictionary*)parameters finished:(void(^)(id  responseObject , NSError* error))afnetFinishedCallBack    {
-    
     
     if (RequestType == RequestTypeGet) {
         [self GET:urlString parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
