@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LSPageController.h"
+
 
 @interface ViewController : UIViewController
-
+@property(nonatomic,copy) void (^responseFormat)  (NSString *input,NSString **output);
+@property(nonatomic,copy) void (^preproccess)     (NSDictionary *input,BOOL *success,id* data,NSString **message);
+- (void)toInitPageControllerWith:(NSString **) apiName params:(NSDictionary **)params;
+- (void)afterInitPageController:(LSPageController *)pageController;
 
 @end
 

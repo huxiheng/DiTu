@@ -1,18 +1,18 @@
 //
-//  af__asiUITests.m
-//  af替换asiUITests
+//  budejieUITests.m
+//  budejieUITests
 //
-//  Created by Tesiro on 16/10/21.
+//  Created by Tesiro on 16/10/28.
 //  Copyright © 2016年 Tesiro. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface af__asiUITests : XCTestCase
+@interface budejieUITests : XCTestCase
 
 @end
 
-@implementation af__asiUITests
+@implementation budejieUITests
 
 - (void)setUp {
     [super setUp];
