@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  budejie
+//  BuDeJie
 //
-//  Created by Tesiro on 16/10/28.
-//  Copyright © 2016年 Tesiro. All rights reserved.
+//  Created by xiaomage on 16/3/11.
+//  Copyright © 2016年 小码哥. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

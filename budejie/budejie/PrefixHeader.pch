@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  budejie
+//
+//  Created by Tesiro on 16/10/28.
+//  Copyright © 2016年 Tesiro. All rights reserved.
+//
+
+
+#import "UIView+Frame.h"
+#import "UIImage+Image.h"
+#import "UIBarButtonItem+Item.h"
+
+#define XMGFunc XMGLog(@"%s",__func__)
+
+#ifdef DEBUG // 调试
+
+#define XMGLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+
+#define XMGLog(...)
+
+#endif
+
+

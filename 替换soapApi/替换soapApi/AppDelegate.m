@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  budejie
+//  替换soapApi
 //
-//  Created by Tesiro on 16/10/28.
+//  Created by Tesiro on 16/10/31.
 //  Copyright © 2016年 Tesiro. All rights reserved.
 //
 
